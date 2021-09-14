@@ -19,17 +19,25 @@
 #
 ### Previews
 
+> Light Variant
+
 https://user-images.githubusercontent.com/26462370/133297219-979471b5-eab0-417b-bd19-9584e5094d27.mp4
+
+<br />
+
+> Dark Variant
 
 https://user-images.githubusercontent.com/26462370/133297121-94c146f5-fd8c-47a7-8045-59a9770aa65f.mp4 
 
+
+**Note:** Flicking in preview videos caused by OBS, I don't know why this is happening. 
 #
 ### What is Rofi?
 
 Rofi is A window switcher, Application launcher and dmenu replacement. Rofi started as a clone of simpleswitcher and It has been extended with extra features, like an application launcher and ssh-launcher, and can act as a drop-in dmenu replacement, making it a very versatile tool. Rofi, like dmenu, will provide the user with a textual list of options where one or more can be selected. This can either be running an application, selecting a window, or options provided by an external script. More <a href="https://github.com/davatorium/rofi">here...</a>
 
 #
-### installation
+### Installation
 
 * First, make sure you have rofi is installed.
   - On **Arch/Arch-based**: `sudo pacman -S rofi`
@@ -48,7 +56,7 @@ $ git clone --depth=1 https://github.com/bw3u/rofi-dracula
 $ cd rofi-dracula
 ```
 
-- **Option 1:** Copy the contents to `~/.config/rofi`. Edit for your taste, you are good to go!
+- **Option 1:** Copy the contents to `~/.config/rofi`. Edit `config.rasi` for your taste, you are good to go!
 
 - **Option 2:** Execute the included install script:
 
